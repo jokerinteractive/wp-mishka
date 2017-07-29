@@ -55,7 +55,7 @@
 <?php
 get_template_part( 'template-parts/popup/popup', 'none' );
 ?>
-<?php /* TODO: переделать подключение на функцию: wp_footer(); */ ?>
+<?php /* TODO: переделать подключение на функцию: */ wp_footer(); ?>
 <script src="js/javascript.js"></script>
 <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
 </body>
