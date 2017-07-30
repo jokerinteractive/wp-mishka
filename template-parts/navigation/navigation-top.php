@@ -3,13 +3,13 @@
  * Displays top navigation
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage my
  * @since 1.0
  * @version 1.2
  */
 
 ?>
-<nav class="main-nav main-nav--closed main-nav--nojs" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
+<nav id="site-navigation" class="main-navigation main-nav main-nav--closed main-nav--nojs" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'my' ); ?>">
 	<button class="main-nav__toggle" type="button" aria-controls="top-menu" aria-expanded="false"></button>
 	<?php wp_nav_menu( array(
 		'theme_location' => 'top',
@@ -21,9 +21,9 @@
 		<li class="main-nav__item main-nav__item--logo">
 			<a class="link main-nav__link--logo" href="index.html">
 				<picture>
-					<source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
-					<source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
-					<img class="main-nav__img" src="img/logo-mobile.svg" width="90" height="35" alt="Mishka">
+					<source media="(min-width: 1150px)" srcset="assets/images/logo-desktop.svg">
+					<source media="(min-width: 768px)" srcset="assets/images/logo-tablet.svg">
+					<img class="main-nav__img" src="assets/images/logo-mobile.svg" width="90" height="35" alt="Mishka">
 				</picture>
 			</a>
 		</li>

@@ -110,6 +110,6 @@
 
 	<header class="page__header" role="banner">
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
+			<?php get_template_part( 'template-parts/navigation/navigation-top', 'top' ); ?>
 		<?php endif; ?>
 	</header>

@@ -1,3 +1,11 @@
+/*
+Theme Name: wp-mishka
+Theme URI: https://github.com/kirilldonenko/wp-mishka
+Author: Kirill Donenko
+Version: 1.0
+*/
+
+
 @font-face {
   font-family: OpenSans;
   src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
@@ -548,7 +556,7 @@ img {
   margin-top: 37px;
   margin-left: -30px;
   margin-bottom: 38px;
-  background: #f9f9f9 url("../img/map-mobile@1x.jpg") no-repeat center; }
+  background: #f9f9f9 url("assets/images/map-mobile@1x.jpg") no-repeat center; }
 
 .contacts__map-pin {
   width: 66px;
@@ -556,7 +564,7 @@ img {
   position: absolute;
   top: 166px;
   left: 123px;
-  background: url("../img/icon-map-pin.svg"); }
+  background: url("assets/images/icon-map-pin.svg"); }
 
 .copyright {
   display: -ms-flexbox;
