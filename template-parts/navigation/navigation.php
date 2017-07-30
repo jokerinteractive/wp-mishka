@@ -3,13 +3,13 @@
  * Displays top navigation
  *
  * @package WordPress
- * @subpackage my
+ * @subpackage wp-mishka
  * @since 1.0
- * @version 1.2
+ * @version 1.0
  */
 
 ?>
-<nav id="site-navigation" class="main-navigation main-nav main-nav--closed main-nav--nojs" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'my' ); ?>">
+<nav class="main-nav main-nav--closed main-nav--nojs" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'wp-mishka' ); ?>">
 	<button class="main-nav__toggle" type="button" aria-controls="top-menu" aria-expanded="false"></button>
 	<?php wp_nav_menu( array(
 		'theme_location' => 'top',
@@ -21,9 +21,9 @@
 		<li class="main-nav__item main-nav__item--logo">
 			<a class="link main-nav__link--logo" href="index.html">
 				<picture>
-					<source media="(min-width: 1150px)" srcset="assets/images/logo-desktop.svg">
-					<source media="(min-width: 768px)" srcset="assets/images/logo-tablet.svg">
-					<img class="main-nav__img" src="assets/images/logo-mobile.svg" width="90" height="35" alt="Mishka">
+					<source media="(min-width: 1150px)" srcset="../../assets/images/logo-desktop.svg">
+					<source media="(min-width: 768px)" srcset="../../assets/images/logo-tablet.svg">
+					<img class="main-nav__img" src="../../assets/images/logo-mobile.svg" width="90" height="35" alt="Mishka">
 				</picture>
 			</a>
 		</li>

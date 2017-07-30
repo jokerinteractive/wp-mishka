@@ -558,13 +558,6 @@ img {
   margin-bottom: 38px;
   background: #f9f9f9 url("assets/images/map-mobile@1x.jpg") no-repeat center; }
 
-.contacts__map-pin {
-  width: 66px;
-  height: 100px;
-  position: absolute;
-  top: 166px;
-  left: 123px;
-  background: url("assets/images/icon-map-pin.svg"); }
 
 .copyright {
   display: -ms-flexbox;
