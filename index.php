@@ -135,7 +135,7 @@ get_header(); ?>
         </li>
       </ul>
       <div class="contacts__map">
-	    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6146657631207!2d30.32026621580405!3d59.93853598187616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sus!4v1501421071621" width="320" height="457" frameborder="0" style="border:0" allowfullscreen></iframe>
+	       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6146657631207!2d30.32026621580405!3d59.93853598187616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sus!4v1501421071621" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <a class="link contacts__write-to-us btn" href="#">Напишите нам</a>
     </div>
