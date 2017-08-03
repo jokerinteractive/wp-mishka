@@ -71,9 +71,9 @@ get_header(); ?>
         </tr>
       </table>
       <picture>
-        <source media="(min-width: 1150px)" srcset="assets/images/triple-set-desktop@1x.jpg 1x, assets/images/triple-set-desktop@2x.jpg 2x">
-        <source media="(min-width: 768px)" srcset="assets/images/triple-set-tablet@1x.jpg 1x, assets/images/triple-set-tablet@2x.jpg 2x">
-        <img class="product-of-week__img" src="assets/images/triple-set-mobile@1x.jpg" srcset="assets/images/triple-set-mobile@1x.jpg 2x" width="260" height="300" alt="корзинки">
+        <source media="(min-width: 1150px)" srcset="wp-content/themes/wp-mishka/assets/images/triple-set-desktop@1x.jpg 1x, wp-content/themes/wp-mishka/assets/images/triple-set-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="wp-content/themes/wp-mishka/assets/images/triple-set-tablet@1x.jpg 1x, wp-content/themes/wp-mishka/assets/images/triple-set-tablet@2x.jpg 2x">
+        <img class="product-of-week__img" src="wp-content/themes/wp-mishka/assets/images/triple-set-mobile@1x.jpg" srcset="wp-content/themes/wp-mishka/assets/images/triple-set-mobile@1x.jpg 2x" width="260" height="300" alt="корзинки">
       </picture>
       <p class="product-of-week__price">Цена: 990 руб.</p>
       <a class="link product-of-week__order btn order" href="#">Заказать</a>

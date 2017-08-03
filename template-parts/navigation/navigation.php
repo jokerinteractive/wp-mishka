@@ -21,9 +21,9 @@
 		<li class="main-nav__item main-nav__item--logo">
 			<a class="link main-nav__link--logo" href="index.html">
 				<picture>
-					<source media="(min-width: 1150px)" srcset="../../assets/images/logo-desktop.svg">
-					<source media="(min-width: 768px)" srcset="../../assets/images/logo-tablet.svg">
-					<img class="main-nav__img" src="../../assets/images/logo-mobile.svg" width="90" height="35" alt="Mishka">
+					<source media="(min-width: 1150px)" srcset="wp-content/themes/wp-mishka/assets/images/logo-desktop.svg">
+					<source media="(min-width: 768px)" srcset="wp-content/themes/wp-mishka/assets/images/logo-tablet.svg">
+					<img class="main-nav__img" src="wp-content/themes/wp-mishka/assets/images/logo-mobile.svg" width="90" height="35" alt="Mishka">
 				</picture>
 			</a>
 		</li>
