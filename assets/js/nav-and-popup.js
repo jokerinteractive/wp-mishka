@@ -1,4 +1,4 @@
-/* Активизация меню main-nav*/
+/* Открытие главного меню в мобильной версии*/
 var mainNav = document.querySelector(".main-nav");
 var toggle = document.querySelector(".main-nav__toggle");
 mainNav.classList.remove("main-nav--nojs");
@@ -12,7 +12,7 @@ toggle.addEventListener("click", function() {
   }
 });
 
-/* Активизация модального окна*/
+/* Активизация popup*/
 
 var modal = document.querySelector(".modal");
 var buttons = document.querySelectorAll(".order");
