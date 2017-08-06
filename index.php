@@ -10,7 +10,7 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @subpackage wp-mishka
  * @since 1.0
  * @version 1.0
  */
@@ -71,9 +71,9 @@ get_header(); ?>
         </tr>
       </table>
       <picture>
-        <source media="(min-width: 1150px)" srcset="./img/triple-set-desktop@1x.jpg 1x, ./img/triple-set-desktop@2x.jpg 2x">
-        <source media="(min-width: 768px)" srcset="./img/triple-set-tablet@1x.jpg 1x, ./img/triple-set-tablet@2x.jpg 2x">
-        <img class="product-of-week__img" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@1x.jpg 2x" width="260" height="300" alt="корзинки">
+        <source media="(min-width: 1150px)" srcset="wp-content/themes/wp-mishka/assets/images/triple-set-desktop@1x.jpg 1x, wp-content/themes/wp-mishka/assets/images/triple-set-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="wp-content/themes/wp-mishka/assets/images/triple-set-tablet@1x.jpg 1x, wp-content/themes/wp-mishka/assets/images/triple-set-tablet@2x.jpg 2x">
+        <img class="product-of-week__img" src="wp-content/themes/wp-mishka/assets/images/triple-set-mobile@1x.jpg" srcset="wp-content/themes/wp-mishka/assets/images/triple-set-mobile@1x.jpg 2x" width="260" height="300" alt="корзинки">
       </picture>
       <p class="product-of-week__price">Цена: 990 руб.</p>
       <a class="link product-of-week__order btn order" href="#">Заказать</a>
@@ -135,7 +135,7 @@ get_header(); ?>
         </li>
       </ul>
       <div class="contacts__map">
-        <div class="contacts__map-pin"></div>
+	       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6146657631207!2d30.32026621580405!3d59.93853598187616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca77c663%3A0xe2913435672b14c9!2s21Shop!5e0!3m2!1sru!2sus!4v1501421071621" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <a class="link contacts__write-to-us btn" href="#">Напишите нам</a>
     </div>
