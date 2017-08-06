@@ -414,7 +414,7 @@ add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
   */
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 function my_scripts_method(){
-	wp_enqueue_script( 'nav-and-popup', get_template_directory_uri() . '/js/nav-and-popup.min.js', 'in_footer');
+	wp_enqueue_script( 'nav-and-popup', get_template_directory_uri() . '/assets/js/nav-and-popup.js', 'in_footer');
 };
 
 function twentyseventeen_scripts() {

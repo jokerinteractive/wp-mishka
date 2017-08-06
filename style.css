@@ -1312,9 +1312,9 @@ img {
   white-space: nowrap;
   overflow: hidden;
   border: 1px solid #ececec;
-  background: url("../img/icon-left-arrow.svg") no-repeat center; }
+  background: url("/assets/images/icon-left-arrow.svg") no-repeat center; }
   .reviews__arrow--next {
-    background: url("../img/icon-right-arrow.svg") no-repeat center; }
+    background: url("/assets/images/icon-right-arrow.svg") no-repeat center; }
   .reviews__arrow:hover {
     opacity: 0.6; }
   .reviews__arrow:active {
