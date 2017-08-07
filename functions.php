@@ -412,7 +412,7 @@ add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
 
 add_action( 'wp_enqueue_scripts', 'my_scripts_method_1' );
 function my_scripts_method_1(){
-	wp_enqueue_script( 'nav-and-popup', get_template_directory_uri() . '/assets/js/nav-and-popup.js', 'in_footer');
+	wp_enqueue_script( 'nav-and-popup', get_template_directory_uri() . '/assets/js/nav-and-popup.js', [], '',  'in_footer');
 };
 
 /**
@@ -421,7 +421,7 @@ function my_scripts_method_1(){
 
 add_action( 'wp_enqueue_scripts', 'my_scripts_method_2' );
 function my_scripts_method_2(){
- wp_enqueue_script( 'picturefill', get_template_directory_uri() . '/assets/js/picturefill.js', 'in_footer');
+ wp_enqueue_script( 'picturefill', get_template_directory_uri() . '/assets/js/picturefill.js', [], '', 'in_footer');
 };
 
 /**
