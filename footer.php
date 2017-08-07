@@ -40,24 +40,12 @@
 					</svg>
 			</a>
 		</div>
-		<?php /* TODO: перенести в отдельный файл */ ?>
-		<div class="copyright  page-footer__copyright">
-			<a class="copyright__link" href="#">Разработано</a>
-			<a class="copyright__logo" href="https://htmlacademy.ru">
-				<span class="visually-hidden">Html Academy</span>
-				<svg width="27" height="34">
-					<use xlink:href="#htmlacademy"/>
-				</svg>
-			</a>
-		</div>
+		<?php get_template_part( 'template-parts/footer/copyright', 'none' ); ?>
 	</div>
 </footer>
-<?php
-get_template_part( 'template-parts/popup/popup', 'none' );
-?>
-<?php /* TODO: переделать подключение на функцию: */ wp_footer(); ?>
-<script src="js/javascript.js"></script>
-<script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
-</body>
+<?php get_template_part( 'template-parts/popup/popup', 'none' ); ?>
 
+<?php wp_footer(); ?>
+
+</body>
 </html>

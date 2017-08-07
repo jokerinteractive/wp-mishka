@@ -405,9 +405,29 @@ function twentyseventeen_colors_css_wrap() {
 <?php }
 add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
 
+
+ /**
+  * Enqueue scripts main-nav and popup
+  */
+
+add_action( 'wp_enqueue_scripts', 'my_scripts_method_1' );
+function my_scripts_method_1(){
+	wp_enqueue_script( 'nav-and-popup', get_template_directory_uri() . '/assets/js/nav-and-popup.js', [], '',  'in_footer');
+};
+
+/**
+ * Enqueue script picturefill
+ */
+
+add_action( 'wp_enqueue_scripts', 'my_scripts_method_2' );
+function my_scripts_method_2(){
+ wp_enqueue_script( 'picturefill', get_template_directory_uri() . '/assets/js/picturefill.js', [], '', 'in_footer');
+};
+
 /**
  * Enqueue scripts and styles.
  */
+
 function twentyseventeen_scripts() {
 	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
